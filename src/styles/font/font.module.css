@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "MovementV";
+    src: url("../../../public/fonts/MovementV.woff2") format("woff2");
+    font-weight: 100 900;
+    font-display: swap;
+}
+
+
+
+.title {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12vw;
+    line-height: 1.1;
+    font-weight: 100;
+    font-variation-settings: 'SPAC' 100;
+    transition: transform, font-size,font-weight,font-variation-settings, 500ms ease;
+    font-family: "MovementV";
+    min-height:12vw;
+}
+
+
+.title:hover {
+    transform: translateX(-20px);
+    font-weight: 200;
+    font-variation-settings: 'SPAC' 110;
+}
+
+
