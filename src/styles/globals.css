@@ -3,5 +3,14 @@
 @tailwind utilities;
 
 html {
-    background-color: #FDF6ED;
+  background-color: #fdf6ed;
+  overflow-x: hidden;
+}
+
+body {
+  cursor: url("../../public/svg/cross.svg"), auto;
+}
+
+a:hover {
+  cursor: url("../../public/svg/croix.svg") 1 1, auto;
 }

@@ -15,6 +15,9 @@ module.exports = {
       colors: {
         background: "#FDF6ED",
       },
+      fontSize: {
+        aLink: "4vw",
+      },
     },
   },
   plugins: [],

@@ -1,0 +1,13 @@
+.cursor {
+  height: 35px;
+  background-image: url("../../public/svg/cursor.svg");
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  aspect-ratio: 1;
+  z-index: 1000;
+  left: 50%;
+  top: 50%;
+  transform: translate(-40%, -40%);
+  pointer-events: none;
+}

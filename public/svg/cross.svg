@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="8" height="8">
+  <!-- Point avec rayon de 4 pixels -->
+  <circle cx="4" cy="4" r="2" fill="black" />
+</svg>

@@ -64,29 +64,32 @@ export default function Home() {
             ease: "easeInOut",
           },
         }}
-        // transition={{ duration: 0.6, delay: 0.2 }}
         className="flex h-screen bg-background"
       >
         <div className="basis-1/12"></div>
         <div className="flex items-end justify-start basis-4/12 pb-[15em]">
-          <div className="font-medium max-w-[80%]">
-            <h1 className="pb-4 tracking-wider text-l">ALEXANDRE CHANAS</h1>
-            <p className="text-sm font-normal leading-relaxed">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
-              itaque minus. Beatae dolores iure non placeat ipsam temporibus
-              accusantium recusandae soluta? Alias quod soluta deserunt ea unde
-              ducimus sit facere!
+          <div className="max-w-[80%] text-[.8vw] font-[400]">
+            <h1 className="pb-4 tracking-widest font-[700]">
+              ALEXANDRE CHANAS
+            </h1>
+            <p className="font-[300]">
+              I am a self-taught developer hailing from France, with a passion
+              for web development and a specialization in learning React and its
+              ecosystem. I strive to create modern and innovative web
+              applications through my self-driven learning approach.
             </p>
-            <p>Current working to chez moi</p>
+            <p className="mt-4 font-[600]">
+              I am currently building a productivity-focused web application
+            </p>
           </div>
         </div>
         <div className="flex flex-col items-start justify-center basis-4/6 min-h-[100px]">
           <Link
             onClick={(e) => handleClick(0, e)}
             className={styles.title}
-            href="/about"
+            href="/work"
           >
-            A propos
+            WORK
             {showArrow[0] == true ? (
               <FiArrowRight
                 size={150}
@@ -99,7 +102,7 @@ export default function Home() {
             className={styles.title}
             href="/"
           >
-            Projets
+            ABOUT
             {showArrow[1] == true ? (
               <FiArrowRight
                 size={100}
@@ -112,7 +115,7 @@ export default function Home() {
             className={styles.title}
             href="/"
           >
-            Contact
+            CONTACT
             {showArrow[2] == true ? (
               <FiArrowRight
                 size={100}
